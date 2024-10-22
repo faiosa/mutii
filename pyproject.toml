@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mutii"
+version = "0.0.1"
+description = "Mute Google Meet on ease"
+authors = ["Vitalii <tomchyshakvitalik@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+customtkinter = "^5.2.2"
+pyautogui = "^0.9.54"
+keyboard = "^0.13.5"
+screeninfo = "^0.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
